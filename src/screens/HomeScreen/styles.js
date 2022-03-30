@@ -1,0 +1,133 @@
+import { StyleSheet, Platform, StatusBar } from "react-native";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  safeContainerTop: {
+    flex: 0,
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+    backgroundColor: "#FFFFFF",
+  },
+  safeContainerBottom: {
+    flex: 1,
+  },
+  topPadding: {
+    paddingTop: "10 px",
+  },
+  formContainer: {
+    flexDirection: "row",
+    height: 80,
+    marginTop: 40,
+    marginBottom: 20,
+    flex: 1,
+    paddingTop: 10,
+    paddingBottom: 10,
+    paddingLeft: 30,
+    paddingRight: 30,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  input: {
+    height: 48,
+    borderRadius: 5,
+    overflow: "hidden",
+    borderColor: "black",
+    minWidth: 200,
+    borderWidth: 1,
+    paddingLeft: 10,
+    paddingLeft: 16,
+    flex: 1,
+    marginRight: 5,
+  },
+  button: {
+    height: 47,
+    borderRadius: 5,
+    backgroundColor: "#788eec",
+    width: 80,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 16,
+  },
+  listContainer: {
+    marginTop: 20,
+    padding: 20,
+  },
+  entityContainer: {
+    marginTop: 16,
+    borderBottomColor: "#cccccc",
+    borderBottomWidth: 1,
+    paddingBottom: 16,
+  },
+  entityText: {
+    fontSize: 20,
+    color: "#333333",
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: "center",
+  },
+  loadingHorizontal: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    padding: 10,
+  },
+  surface: {
+    padding: 8,
+    alignSelf: "center",
+    marginTop: 10,
+    width: "80%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  noPartsTitle: {
+    color: "#37474f",
+    fontSize: 16,
+    textAlign: "center",
+    fontFamily: 'Quicksand_700Bold',
+    lineHeight: 20,
+    letterSpacing: 0.25,
+  },
+  noPartsSubtitle: {
+    color: "#37474f",
+    fontSize: 14,
+    textAlign: "center",
+    fontFamily: 'Quicksand_500Medium',
+    lineHeight: 20,
+    letterSpacing: 0.25,
+  },
+  okSnack: {
+    backgroundColor: "#1b5e20",
+    color: "black",
+  },
+  koSnack: {
+    backgroundColor: "#7f0000",
+    color: "black",
+  },
+  snackEmail: {
+    backgroundColor: "#3239E5",
+    color: "black",
+  },
+  skeletonContainer: {
+    display: 'flex',
+    height: 390,
+    minWidth: 304,
+    overflow: "hidden",
+    backgroundColor: "#FFFFFF",
+    borderRadius: 4,
+    borderColor: '#00000033',
+    borderWidth: 0,
+    },
+  noMoreProjStyle: {
+    padding: 8,
+    fontFamily: "Quicksand_500Medium",
+    fontStyle: "normal",
+    color: "#767676",
+    fontSize: 14,
+    lineHeight: 20,
+    letterSpacing: 0.25,
+  },
+});

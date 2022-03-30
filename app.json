@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "notes",
+    "slug": "notes",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F2F2F2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.upm.notes",
+      "buildNumber": "1.0.0"
+    },
+    "description": "Do some notes!",
+    "githubUrl": "https://github.com/",
+    "android": {
+      "package": "com.upm.notes",
+      "permissions":[],
+      "versionCode": 1
+    }
+  }
+}

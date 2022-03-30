@@ -1,0 +1,48 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo-google-fonts/quicksand": "^0.2.0",
+    "@expo/metro-config": "^0.3.3",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-firebase/app": "^10.8.0",
+    "@react-native-firebase/functions": "^10.8.0",
+    "@react-native-firebase/storage": "^10.8.0",
+    "@react-navigation/drawer": "^5.12.3",
+    "@react-navigation/native": "^5.4.0",
+    "base-64": "^0.1.0",
+    "expo": "^43.0.0",
+    "expo-app-loading": "~1.2.1",
+    "expo-constants": "^13.0.0",
+    "expo-font": "~10.0.3",
+    "expo-web-browser": "~10.0.3",
+    "firebase": "8.2.3",
+    "moment": "^2.29.1",
+    "native-base": "^2.15.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-paper": "^4.7.1",
+    "react-native-progress": "^4.1.2",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.8.0",
+    "react-native-skeleton-content": "^1.0.24",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-virtualized-view": "^0.1.5",
+    "react-native-web": "0.17.1",
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-preset-expo": "8.5.1"
+  },
+  "private": true
+}
