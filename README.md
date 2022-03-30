@@ -1,13 +1,13 @@
-# Premium & Premium
+# Conf.it UPM 2022
 
-This is the Premium & Premium React Native app. It is the mobile app for the users to make donations to their favourite NGOs and in the process, earn the chance to get a prize.
+Demo app for Conf.it UPM 2022
 
 ## Getting Started (with Expo)
 
 If you are using Expo Cli, clone the repo and run "expo start" in the root folder of the project:
 
 ```
-git clone https://github.com/PremiumandPremium/App.git
+git clone https://github.com/samus24/react-native-firebase-upm.git
 cd react-native-firebase
 expo start
 ```
